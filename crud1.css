@@ -1,0 +1,73 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 22px;
+}
+
+button{
+    letter-spacing: 2px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.bar{
+    width: auto;
+    overflow: hidden;
+    letter-spacing: 4px;
+}
+
+.bar-item{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.bar .nav-button{
+    white-space: normal;
+    float: right;
+}
+
+.nav-button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nav-button:hover{
+    color: #000;
+    background-color: #E588DA;
+}
+
+.white,.hover-white:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.padding{
+    padding: 8px 16px;
+}
+
+.mainWrapper{
+    position: relative;
+    margin-top: 75px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body{
+    background: rgb(234, 183, 234)!important;
+}

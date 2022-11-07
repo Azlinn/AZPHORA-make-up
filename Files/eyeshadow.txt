@@ -1,0 +1,5 @@
+brand: maybelline
+name: Maybelline Expert Wear Eye Shadow Quad
+price: 8.99
+id: 309
+rating: 4

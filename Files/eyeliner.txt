@@ -1,0 +1,5 @@
+brand: nyx
+name: Studio Liquid Liner
+price: $4.50
+id: 944
+category: liquid

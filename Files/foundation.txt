@@ -1,0 +1,5 @@
+brand: DIor
+name: DIORIFIC PRECIOUS ROCKS - Christmas 2017 Limited Edition
+price: 40.00
+category: powder
+id: 679

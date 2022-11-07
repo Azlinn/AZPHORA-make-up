@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>AZPHORA FILE</title>
+    <link rel="stylesheet" href="crud1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="nav">
+      <div class="bar white padding card">
+        <a class="bar-item">AZPHORA</a>
+        <button class="bar-item nav-button"><a href="index.html">Home</a></button>
+    </div>
+      </div>
+    </div>
+    <div class="mainWrapper">
+      <br><br><br><br>
+      <h1 style="font-size: 24px;">MAKE UP LIST</h1>
+      <h2 style="font-size: 18px;">Enter the brand and product type details.</h2>
+      <br>
+      <!-- CRUD form-->
+      <form>
+        <div class="form-group">
+          <label>💖 Product Type</label>
+          <input id="fileName" type="text" class="form-control" placeholder="Ex: LipMate.txt">
+          <br><br>
+        </div>
+
+        <div class="form-group">
+          <label>💖 List of Product Details</label>
+          <textarea id="fileContents" class="form-control" rows="5" placeholder="Ex: Type, Color, Brand, Price"></textarea>
+
+        </div>
+      </form>
+      <!--CRUD Button-->
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+
+
+    
+    </div>
+
+    <script src="crud1.js">
+      
+      
+    </script>
+  </body>
+</html>
